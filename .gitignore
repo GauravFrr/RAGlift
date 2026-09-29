@@ -1,0 +1,30 @@
+# Secret / Local configuration files
+.env
+*.env
+!.env.example
+
+# Data directory
+data/
+*.pkl
+*.jsonl
+
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Testing / Linting cache
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/

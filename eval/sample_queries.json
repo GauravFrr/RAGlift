@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "category": "lexical_gap",
+    "query": "How can I prevent my service from consuming too many database connections under heavy load?",
+    "relevant_chunk_ids": ["db_connection_pooling_0"]
+  },
+  {
+    "id": 2,
+    "category": "lexical_gap",
+    "query": "What happens if my credit card fails to charge when my monthly subscription renews?",
+    "relevant_chunk_ids": ["failed_payment_retry_0"]
+  },
+  {
+    "id": 3,
+    "category": "lexical_gap",
+    "query": "How do I ensure my incoming webhook payloads were actually sent by CloudScale and not a malicious third party?",
+    "relevant_chunk_ids": ["webhook_security_signing_0"]
+  },
+  {
+    "id": 4,
+    "category": "lexical_gap",
+    "query": "Is there a way to restore data to a specific minute in the past if a bad transaction corrupts the database?",
+    "relevant_chunk_ids": ["db_backup_snapshots_0"]
+  },
+  {
+    "id": 5,
+    "category": "lexical_gap",
+    "query": "How do I swap an authorization code for an API access credential after user login?",
+    "relevant_chunk_ids": ["oauth_token_exchange_0"]
+  },
+  {
+    "id": 6,
+    "category": "lexical_gap",
+    "query": "Can I restrict what actions a secondary developer key is allowed to execute in our project?",
+    "relevant_chunk_ids": ["api_key_scoping_0"]
+  },
+  {
+    "id": 7,
+    "category": "keyword_critical",
+    "query": "What header contains the Unix timestamp when my rate limit resets?",
+    "relevant_chunk_ids": ["rate_limit_headers_0"]
+  },
+  {
+    "id": 8,
+    "category": "keyword_critical",
+    "query": "What is the exact error code for an expired or revoked OAuth token?",
+    "relevant_chunk_ids": ["auth_errors_ref_0"]
+  },
+  {
+    "id": 9,
+    "category": "keyword_critical",
+    "query": "Which error code indicates that the database storage disk is completely full?",
+    "relevant_chunk_ids": ["db_errors_ref_0"]
+  },
+  {
+    "id": 10,
+    "category": "keyword_critical",
+    "query": "What error code is returned when a webhook endpoint is automatically disabled after consecutive delivery failures?",
+    "relevant_chunk_ids": ["webhook_delivery_failures_0"]
+  },
+  {
+    "id": 11,
+    "category": "keyword_critical",
+    "query": "What CLI command flag is used to deploy a project directly to the production environment?",
+    "relevant_chunk_ids": ["cli_deployment_0"]
+  },
+  {
+    "id": 12,
+    "category": "keyword_critical",
+    "query": "What is the exact header name used to verify webhook signatures?",
+    "relevant_chunk_ids": ["webhook_security_signing_0"]
+  },
+  {
+    "id": 13,
+    "category": "ambiguous",
+    "query": "What is the rate limit for unauthenticated requests based on client IP address?",
+    "relevant_chunk_ids": ["rate_limit_ip_vs_key_0"]
+  },
+  {
+    "id": 14,
+    "category": "ambiguous",
+    "query": "How long will CloudScale attempt to retry sending webhooks before disabling an endpoint?",
+    "relevant_chunk_ids": ["webhook_retry_policy_0"]
+  },
+  {
+    "id": 15,
+    "category": "ambiguous",
+    "query": "What happens to my active database when disk storage drops below 10 percent?",
+    "relevant_chunk_ids": ["db_storage_scaling_0"]
+  },
+  {
+    "id": 16,
+    "category": "ambiguous",
+    "query": "How do I configure my company firewall to allow incoming webhook requests from CloudScale?",
+    "relevant_chunk_ids": ["webhook_ip_whitelisting_0"]
+  },
+  {
+    "id": 17,
+    "category": "ambiguous",
+    "query": "How are prorated charges calculated when changing subscription plans mid-billing-cycle?",
+    "relevant_chunk_ids": ["billing_cycles_0"]
+  },
+  {
+    "id": 18,
+    "category": "ambiguous",
+    "query": "How do I update access tokens automatically without forcing the user to log in again?",
+    "relevant_chunk_ids": ["oauth_refresh_flow_0"]
+  },
+  {
+    "id": 19,
+    "category": "distractor",
+    "query": "I received a 429 error code while deploying my application with the CLI. What should I check?",
+    "relevant_chunk_ids": ["rate_limit_errors_0"]
+  },
+  {
+    "id": 20,
+    "category": "distractor",
+    "query": "Why did my database connection throw an authentication error with code ERR_AUTH_MISSING_HEADER?",
+    "relevant_chunk_ids": ["auth_errors_ref_0"]
+  },
+  {
+    "id": 21,
+    "category": "distractor",
+    "query": "How do I configure SSL certificates for custom domain webhooks?",
+    "relevant_chunk_ids": ["custom_domains_ssl_0"]
+  },
+  {
+    "id": 22,
+    "category": "distractor",
+    "query": "What Python SDK method should I call to list all failed invoice billing payments?",
+    "relevant_chunk_ids": ["failed_payment_retry_0"]
+  },
+  {
+    "id": 23,
+    "category": "distractor",
+    "query": "Are automated database snapshots created during project deployment via CLI?",
+    "relevant_chunk_ids": ["db_backup_snapshots_0"]
+  },
+  {
+    "id": 24,
+    "category": "distractor",
+    "query": "Does the token bucket rate limiter apply to webhook delivery retries?",
+    "relevant_chunk_ids": ["webhook_retry_policy_0"]
+  }
+]
