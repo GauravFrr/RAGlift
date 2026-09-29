@@ -35,9 +35,10 @@
 Orchestrated by `app/services/retrieval_service.py`, which routes are kept thin against.
 
 **API Layer** (`app/api/v1/`)
-- `routes_ingest.py` — `POST /ingest`, delegates to `ingestion_service`
-- `routes_query.py` — `POST /query`, delegates to `retrieval_service`, returns reranked top-N chunks
+- `routes_ingest.py` — `POST /api/v1/ingest` (alias: `POST /ingest`), delegates to `ingestion_service`
+- `routes_query.py` — `POST /api/v1/query` (alias: `POST /query`), delegates to `retrieval_service`, returns reranked top-N chunks
 - `routes_health.py` — `GET /health` liveness check
+
 
 **Eval Script** (`eval/run_eval.py`)
 - Standalone, not exposed via API
